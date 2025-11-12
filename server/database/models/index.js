@@ -1,4 +1,6 @@
-// server/database/models/index.js
-const User = require('./user');
+const User = require('./User');
+const Product = require('./Product');
+
 // Associations
-module.exports = { User };
+
+module.exports = { User, Product };
